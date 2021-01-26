@@ -73,7 +73,7 @@ body {
 	background-color: #32A7F5;
 }
 
-.main-section {
+.main-section .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
