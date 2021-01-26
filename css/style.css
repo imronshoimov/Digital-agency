@@ -1,3 +1,9 @@
+:root {
+	--main-color: #2c3e50;
+	--red-color: #e74c3c;
+	--secondary-color: #818181;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -28,6 +34,7 @@ body {
 	color: rgba(0,0,0,0.6);
 	font-weight: 500;
 	transition: transform .3s;
+	color: var(--main-color);
 }
 
 .logo:hover {
@@ -36,7 +43,7 @@ body {
 
 .logo span {
 	font-weight: bold;
-	color: red;
+	color: var(--red-color);
 	
 }
 
@@ -107,10 +114,11 @@ body {
 .content-heading {
 	font-size: 100px;
 	width: 200px;
+	color: var(--main-color);
 }
 
 .content-heading span {
-	color: red;
+	color: var(--red-color);
 	
 }
 
@@ -136,4 +144,98 @@ body {
 
 .group-image {
 	width: 100%;
+}
+
+.benefits .container {
+	margin-top: 50px;
+}
+
+.benefits__content__section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.benefits__content__title {
+	font-size: 55px;
+	width: 60%;
+	text-align: center;
+	margin-bottom: 40px;
+	color: var(--main-color);
+}
+
+.benefits__content__title .red-text {
+	color: var(--red-color);
+}
+
+.benefits__content__text {
+	color: var(--secondary-color);
+	text-align: center;
+	font-size: 18px;
+	width: 65%;
+	margin-bottom: 40px;
+}
+
+.benefits_list {
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.benefits__item {
+	padding: 25px;
+	margin: 10px 0;
+	width: 30%;
+	border-radius: 10px;
+	border-top-right-radius: 25%;
+	transition: box-shadow 0.3s;
+	position: relative;
+	background-color: white;
+}
+
+.benefit7 {
+	position: absolute;
+	top: -15%;
+	left: -15%;
+	z-index: -1;
+}
+
+.benefit8 {
+	position: absolute;
+	z-index: -1;
+	bottom: -7%;
+	left: -20%;
+}
+
+.benefit9 {
+	position: absolute;
+	z-index: -1;
+	bottom: -13%;
+	right: -16%;
+}
+
+.benefits__item:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.benefits__item__title {
+	margin: 20px 0;
+	color: var(--main-color);
+}
+
+.benefits__item__text {
+	color: var(--secondary-color);
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.benefits__item__icon {
+	color: var(--secondary-color);
+	 
+}
+
+.benefits__item__icon:hover {
+	transform: scale(1.3);
+	color: #EB974D;
 }
