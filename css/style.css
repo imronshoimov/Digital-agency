@@ -657,4 +657,53 @@ body {
 	transform: translateX(3px);
 }
 
+/*
+	NINETH SECTION
+*/
+
+.project .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 40px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+.project__title {
+	font-size: 50px;
+	color: var(--main-color);
+	width: 50%;
+}
+
+.project__title .project--red {
+	color: var(--red-color);
+}
+
+.project__form {
+	border: 2px solid rgba(0,0,0,0.1);
+	display: flex;
+
+}
+
+.project__input {
+	border: none;
+	padding: 20px;
+	width: 350px;
+	outline: none;
+}
+
+.project__input::placeholder {
+	font-size: 17px;
+	color: var(--secondary-color);
+}
+
+.project__button {
+	border: none;
+	padding: 10px;
+	background-color: white;
+}
+
  
