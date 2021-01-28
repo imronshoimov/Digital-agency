@@ -21,11 +21,18 @@ body {
 	margin: 0 auto;
 }
 
+/*
+	FIRST SECTION
+*/
+
 .header-section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 30px 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1350px;
 }
 
 .logo {
@@ -60,6 +67,7 @@ body {
 	color: rgba(0,0,0,0.6);
 	font-size: 18px;
 	font-weight: 500;
+	transition: color .3s;
 }
 
 .nav-link:hover {
@@ -73,12 +81,17 @@ body {
 	border-radius: 5px;
 	box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.2);
 	font-weight: 500;
+	transition: .3s;
 }
 
 .nav-item-link:hover {
 	color: white;
 	background-color: #32A7F5;
 }
+
+/*
+	SECOND SECTION
+*/
 
 .main-section .container {
 	display: flex;
@@ -145,6 +158,10 @@ body {
 .group-image {
 	width: 100%;
 }
+
+/*
+	THIRD SECTION
+*/
 
 .benefits .container {
 	margin-top: 50px;
@@ -239,3 +256,4 @@ body {
 	transform: scale(1.3);
 	color: #EB974D;
 }
+
