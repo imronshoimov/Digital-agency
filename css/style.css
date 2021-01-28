@@ -289,7 +289,7 @@ body {
 
 .box1 {
 	bottom: -5%;
-	right: 45%;
+	right: 55%;
 }
 
 .box, .box1 p {
@@ -319,16 +319,25 @@ body {
 }
 
 .xmlid--image2 {
-	right: 38%;
-	top: -5%;
+	right: 47%;
+	top: -20%;
+}
+
+.business--people {
+	width: 75%;
+}
+
+.business--people__image {
+	width: 100%;
 }
 
 .experience__content {
-	width: 45%;
+	width: 50%;
 }
 
 .experience__content__title {
-	font-size: 40px;
+	width: 110%;
+	font-size: 50px;
 	color: var(--main-color);
 	margin-bottom: 30px;
 }
@@ -367,5 +376,96 @@ body {
 	margin-right: 3px;
 }
 
+/*
+	FIFTH SECTION
+*/
 
+.marketing .container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px 0;
+}
+
+.marketing__img__section {
+	width: 75%;
+	position: relative;
+}
+
+.box2, .box3, .xmlid3, .xmlid4 {
+	position: absolute;
+}
+
+.box2, .box3 {
+	box-shadow: 5px 5px 54px 5px rgba(0,0,0,0.5);
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.box2 {
+	right: -10%;
+	top: -10%;
+}
+
+.box3 {
+	left: -10%;
+	bottom: -10%;
+}
+
+.box2 p {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--main-color);
+	width: 100px;
+	margin-left: 10px;
+}
+
+.box3 p {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--main-color);
+	width: 110px;
+	margin-left: 10px;
+}
+
+.xmlid3 {
+	top: -10%;
+	left: -15%;
+	z-index: -1;
+}
+
+.xmlid4 {
+	right: -5%;
+	bottom: -5%;
+}
+
+.marketing__img {
+	width: 100%;
+}
+
+.marketing__content__title {
+	font-size: 50px;
+	width: 80%;
+	margin-bottom: 30px;
+	color: var(--main-color);
+}
+
+.marketing__content__title .marketing-red {
+	color: var(--red-color);
+}
+
+.marketing__content__text {
+	font-size: 18px;
+	color: var(--secondary-color);
+	width: 80%;
+	margin-bottom: 40px;
+}
+
+.marketing__link {
+	width: 25%;
+}
 
