@@ -630,4 +630,31 @@ body {
 	transform: translate(-10px, 25px);
 }
 
+/*
+	EIGHTH SECTION
+*/
+
+.logotip {
+	background-color: #F7F7F7;
+}
+
+.logotip .container {
+	padding: 40px 0;
+}
+
+.logotip__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logotip__item .logotip__img {
+	padding: 0 10px;
+	transition: transform .3s;
+}
+
+.logotip__item .logotip__img:hover {
+	transform: translateX(3px);
+}
+
  
