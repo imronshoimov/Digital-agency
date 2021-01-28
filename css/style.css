@@ -81,7 +81,7 @@ body {
 	padding: 10px 20px;
 	color: white;
 	border-radius: 5px;
-	box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 20px 5px #d6d9fe;
 	font-weight: 500;
 	transition: .3s;
 }
@@ -360,7 +360,7 @@ body {
 	justify-content: space-around;
 	width: 35%;
 	border-radius: 5px;
-	box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 20px 5px #d6d9fe;
 	font-weight: 500;
 	background-color: var(--background-color);
 	transition: background .3s;
@@ -467,5 +467,78 @@ body {
 
 .marketing__link {
 	width: 25%;
+}
+
+/*
+	SIXTH SECTION
+*/
+
+.designer {
+	background-color: #F7F7F7;
+}
+
+.designer .container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 80px 0;
+}
+
+.designer__image__section {
+	width: 900px;
+	position: relative;
+}
+
+.xmlid5, .xmlid6 {
+	position: absolute;
+	z-index: 1;
+}
+
+.xmlid5 {
+	left: -30%;
+	top: -10%;
+}
+
+.xmlid6 {
+	right: 35%;
+	bottom: -10%;
+}
+
+.designer__image {
+	object-fit: fill;
+	height: 550px;
+	width: 100%;
+	transform: translateX(-200px);
+}
+
+.designer__content__section {
+	width: 50%;
+	margin-right: 30px;
+	margin-left: -120px;
+	position: relative;
+}
+
+.dagency--img {
+	position: absolute;
+	top: -30%;
+	right: -30%;
+}
+
+.designer__content__title {
+	width: 500px;
+	font-size: 50px;
+	color: var(--main-color);
+	margin-bottom: 30px;
+}
+
+.designer__content__title .designer--red {
+	color: var(--red-color);
+}
+
+.designer__content__text {
+	font-size: 18px;
+	color: var(--secondary-color);
+	line-height: 1.7;
+	margin-bottom: 40px;
 }
 
