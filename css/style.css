@@ -585,10 +585,11 @@ body {
 }
 
 .clients__item {
-	width: 40%;
+	width: 45%;
 	background-color: white;
 	padding: 30px;
-	border-top-right-radius: 20%;
+	border-radius: 5px;
+	border-top-right-radius: 50px;
 	transition: box-shadow .3s;
 }
 
@@ -620,8 +621,13 @@ body {
 	align-items: center;
 }
 
+.clients__box2__text {
+	color: var(--secondary-color);
+	line-height: 1.5;
+}
+
 .clients__box2 img {
-	transform: translate(-100px,30px);
+	transform: translate(-10px, 25px);
 }
 
  
