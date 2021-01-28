@@ -542,3 +542,86 @@ body {
 	margin-bottom: 40px;
 }
 
+/*
+	SEVENTH SECTION
+*/
+
+.clients .container {
+	padding: 60px 0;
+}
+
+.clients__content__section__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.clients__content__title {
+	font-size: 50px;
+	color: var(--main-color);
+}
+
+.clients__content__title .clients--red {
+	color: var(--red-color);
+}
+
+.clients__content__link {
+	width: 250px;
+}
+
+.clients__content__section__text {
+	font-size: 20px;
+	width: 73%;
+	line-height: 1.5;
+	color: var(--secondary-color);
+}
+
+.clients__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.clients__item {
+	width: 40%;
+	background-color: white;
+	padding: 30px;
+	border-top-right-radius: 20%;
+	transition: box-shadow .3s;
+}
+
+.clients__item:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.client__box1 {
+	display: flex;
+	align-items: center;
+}
+
+.client__box1__name {
+	margin: 0 20px;
+}
+
+.client__box1__name__title {
+	color: var(--main-color);
+}
+
+.client__box1__name__slog {
+	color: var(--secondary-color);
+	font-size: 18px;
+}
+
+.clients__box2 {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.clients__box2 img {
+	transform: translate(-100px,30px);
+}
+
+ 
