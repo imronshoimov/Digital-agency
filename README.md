@@ -1,4 +1,3 @@
 # Digital-agency
-
-	The project has not finished yet!
+For view the layout project: [site](https://digital-agency-page.netlify.app/)
  
