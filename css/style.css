@@ -818,4 +818,66 @@ li > a {
 li > a:hover {
 	transform: translateX(3px);
 }
+
+/* 
+	RESPONSIVE CODES
+*/
+
+@media (max-width: 1150px) {
+	.container {
+		width: 1040px;
+	}
+
+	.header-section {
+		display: flex;
+		justify-content: space-around;
+	}
+	.main-section .container {
+		width: 1040px;
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 1050px) {
+	.container {
+		width: 940px;
+	}
+}
+
+@media (max-width: 950px) {
+	.container {
+		width: 840px;
+	}
+}
+
+@media (max-width: 850px) {
+	.container {
+		width: 740px;
+	}
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 640px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 440px;
+	}
+}
+
+@media (max-width: 450px) {
+	.container {
+		width: 340px;
+	}
+}
  
