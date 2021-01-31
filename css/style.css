@@ -823,35 +823,63 @@ li > a:hover {
 	RESPONSIVE CODES
 */
 
-@media (max-width: 1150px) {
+@media (max-width: 1310px) {
 	.container {
-		width: 1040px;
+		width: 1270px;
+	}
+
+	.main-section .container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.logo  {
+		margin-bottom: 20px;
+	}
+
+	.logotip .container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.logotip__list {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1280px) {
+	.container {
+		width: 1130px;
+	}
+}
+
+@media (max-width: 1140px) {
+	.container {
+		width: 1000px;
 	}
 
 	.header-section {
 		display: flex;
-		justify-content: space-around;
+		flex-direction: column;
 	}
+
 	.main-section .container {
-		width: 1040px;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
+	}
+
+	.image-section {
+		width: 100%;
 	}
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1010px) {
 	.container {
-		width: 940px;
+		width: 870px;
 	}
 }
 
-@media (max-width: 950px) {
-	.container {
-		width: 840px;
-	}
-}
-
-@media (max-width: 850px) {
+@media (max-width: 880px) {
 	.container {
 		width: 740px;
 	}
