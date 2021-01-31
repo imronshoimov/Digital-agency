@@ -810,11 +810,12 @@ body {
 	align-items: center;
 }
 
-li > img {
+li > a {
 	padding: 0 10px;
 	transition: transform .3s;
 }
 
-li > img:hover {
+li > a:hover {
 	transform: translateX(3px);
 }
+ 
